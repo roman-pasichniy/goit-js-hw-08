@@ -25,7 +25,7 @@ img {
 }
 
 .gallery-item {
-  /* flex-basis: calc((100% - 48px) / 3); */
+  flex-basis: calc((100% - 48px) / 3);
   transition: transform 0.3s;
 }
 

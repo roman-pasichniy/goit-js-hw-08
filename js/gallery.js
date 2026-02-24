@@ -84,10 +84,10 @@ const imgItems = images.map(({ preview, original, description }) =>
 
 gallery.insertAdjacentHTML('beforeend', imgItems);
 
-function openModal (event) {
+function openModal(event) {
     event.preventDefault();
 
-    const {target} = event;
+    const { target } = event;
 
     if (target.nodeName !== "IMG") {
         return;
